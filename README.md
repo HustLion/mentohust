@@ -2,6 +2,8 @@
 接续HustMoon开发的Mentohust，继续更新。
 搬运完毕，即将开始各种修改。记下原始的地址以示纪念：http://mentohust.googlecode.com/
 
+开发的主要目标是使得Openwrt下的Mentohust更加友好，对其他平台的适配暂无计划。
+
 #使用方法
 
 #安装mentohust：建议Ubuntu用户使用Deb包安装，Fedora用户使用RPM包安装
