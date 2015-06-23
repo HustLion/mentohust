@@ -45,6 +45,9 @@ sudo cp ./data.mpf /etc/mentohust
 sudo ln -s libpcap.so.0.x.y /usr/lib/libpcap.so.0.x
 否则请安装libpcap。
 
+#开发者资源
+本软件采用The GNU Build System
+
 #权责声明
 1、本程序所有涉及锐捷赛尔认证的功能均是来自前辈公开代码及抓包分析。
 2、本程序于个人仅供学习，于他人仅供方便认证，不得使用本程序有意妨害锐捷赛尔认证机制及相关方利益。
