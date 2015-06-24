@@ -1,0 +1,46 @@
+# general
+##backup mechanism
+*~
+
+##eclipse
+.project
+.cproject
+.autotools
+
+##misc
+ABOUT-NLS
+COPYING
+INSTALL
+
+# standard Autotools.gitignore https://github.com/github/gitignore/blob/master/Autotools.gitignore
+# http://www.gnu.org/software/automake
+Makefile.in
+# http://www.gnu.org/software/autoconf
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+# customized .gitignore for Autotools
+## po folder
+po/Makefile.in.in
+po/*.template
+po/Rules-quot
+po/*.header
+po/*.sin
+po/*.sed
+
+## misc
+*.log
+*.in
+*.guess
+*.rpath
+*.sub
+/m4
+
+
+
