@@ -42,5 +42,12 @@ po/*.sed
 *.sub
 /m4
 
-
-
+# Makefile
+Makefile
+config.h
+config.status
+mentohust.spec
+po/Makefile
+po/POTFILES
+src/.deps/
+src/Makefile
