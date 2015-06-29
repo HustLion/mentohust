@@ -24,4 +24,12 @@ The result should be:
 #Build
 `./configure`
 
+#suggested by @updateing
+
+
+export PATH=$PATH:/path/to/openwrt/toolchain/bin
+./configure --host=mips-openwrt-linux-uclibc --disable-notify --with-pcap=/path/to/precompiled/libpcap.a
+make
+
+
 
