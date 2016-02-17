@@ -76,6 +76,11 @@ sudo ln -s libpcap.so.0.x.y /usr/lib/libpcap.so.0.x
 
 其他事项
 ===
+####开发计划
+* 整理原有的Issues
+* 整理各类路由器上的编译指南，尽量提供编译好的固件。
+
+
 ####开发者资源
 本软件采用The GNU Build System
 
