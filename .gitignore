@@ -51,3 +51,7 @@ po/Makefile
 po/POTFILES
 src/.deps/
 src/Makefile
+
+# Compile output
+*.o
+src/mentohust
