@@ -447,6 +447,7 @@ static void showHelp(const char *fileName)
 		"\t-f 自定义数据文件[默认不使用]\n"
 		"\t-c DHCP脚本[默认dhclient]\n"
 		"\t-q 显示SuConfig.dat的内容(如-q/path/SuConfig.dat)\n"
+		"\t-S 接入服务选择：0（默认） 1（有线1x上网服务，例如华农拨办公账号时需要）\n"
 		"例如:\t%s -uusername -ppassword -neth0 -i192.168.0.1 -m255.255.255.0 -g0.0.0.0 -s0.0.0.0 -o0.0.0.0 -t8 -e30 -r15 -a0 -d1 -b0 -v4.10 -fdefault.mpf -cdhclient\n"
 		"注意：使用时请确保是以root权限运行！\n\n");
 	printf(helpString, fileName, fileName);
