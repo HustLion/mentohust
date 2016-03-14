@@ -448,6 +448,10 @@ void fillStartPacket()
 
 		printf("service=%d\n",service);
 		
+		/*0（默认） 1（有线1x上网服务，例如华农拨办公账号时需要）
+		 *在原来的数据包后面的空白字段增加了10位数据，用来区分有线1x的服务，
+		 *根据wireShark抓包得到的结果设置这些数据。
+		 */	
 		if(service == 1)
 		{
 			u_char service_1x[] = {0xd3,0xd0,0xcf,0xdf,0x31,0x78,0xc9,0xcf,0xcd,0xf8};
