@@ -436,7 +436,7 @@ void fillStartPacket()
 		if (dhcpMode == 1)	/* 二次认证第一次 */
 			dhcp[0] = 0x01;
 
-		printf("bufType = %d\n",bufType);
+		//printf("bufType = %d\n",bufType);
 		if (bufType == 1) {			
 			memcpy(fillBuf+0x17, packet1, sizeof(packet1));
 			memcpy(fillBuf+0x3b, version, 2);
@@ -446,8 +446,7 @@ void fillStartPacket()
 		setProperty(0x18, dhcp, 1);
 		setProperty(0x2D, localMAC, 6);
 
-		printf("service=%d\n",service);
-		
+		//printf("service=%d\n",service);
 		/*0（默认） 1（有线1x上网服务，例如华农拨办公账号时需要）
 		 *在原来的数据包后面的空白字段增加了10位数据，用来区分有线1x的服务，
 		 *根据wireShark抓包得到的结果设置这些数据。
