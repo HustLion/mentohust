@@ -37,6 +37,7 @@ static const char *PACKAGE_BUGREPORT = "http://code.google.com/p/mentohust/issue
 #define D_DHCPMODE			0	/* 默认DHCP模式 */
 #define D_DAEMONMODE		0	/* 默认daemon模式 */
 #define D_MAXFAIL			8	/* 默认允许失败次数 */
+#define D_SERVICE			0	/* 默认connect way */
 
 #define ECHOFLAGS (ECHO|ECHOE|ECHOK|ECHONL)    /* 控制台输入密码时的模式*/
 
@@ -77,6 +78,8 @@ unsigned dhcpMode = D_DHCPMODE;	/* DHCP模式 */
 unsigned maxFail = D_MAXFAIL;	/* 允许失败次数 */
 pcap_t *hPcap = NULL;	/* Pcap句柄 */
 int lockfd = -1;	/* 锁文件描述符 */
+
+unsigned service = D_SERVICE ; /* service connect way*/
 
 static int readFile(int *daemonMode);	/* 读取配置文件来初始化 */
 static void readArg(char argc, char **argv, int *saveFlag, int *exitFlag, int *daemonMode);	/* 读取命令行参数来初始化 */
@@ -322,6 +325,8 @@ static int readFile(int *daemonMode)
 	restartWait = getInt(buf, "MentoHUST", "RestartWait", D_RESTARTWAIT) % 100;
 	startMode = getInt(buf, "MentoHUST", "StartMode", D_STARTMODE) % 3;
 	dhcpMode = getInt(buf, "MentoHUST", "DhcpMode", D_DHCPMODE) % 4;
+	//add service connect way
+	service = getInt(buf, "MentoHUST", "Service", D_SERVICE) % 2;
 #ifndef NO_NOTIFY
 	showNotify = getInt(buf, "MentoHUST", "ShowNotify", D_SHOWNOTIFY) % 21;
 #endif
@@ -399,6 +404,8 @@ static void readArg(char argc, char **argv, int *saveFlag, int *exitFlag, int *d
 				startMode = atoi(str+2) % 3;
 			else if (c == 'd')
 				dhcpMode = atoi(str+2) % 4;
+			else if (c == 'S')
+				service = atoi(str+2) % 2;
 #ifndef NO_NOTIFY
 			else if (c == 'y')
 				showNotify = atoi(str+2) % 21;

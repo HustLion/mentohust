@@ -57,6 +57,9 @@ extern u_int32_t ip, mask, gateway, dns, pingHost;
 extern u_char localMAC[], destMAC[];
 extern unsigned startMode, dhcpMode;
 
+
+extern unsigned service; /* service connect way*/
+
 static int checkFile();	/* 检查数据文件 */
 static int getVersion();	/* 获取8021x.exe版本号 */
 static int getAddress();	/* 获取网络地址 */
@@ -432,13 +435,26 @@ void fillStartPacket()
 		u_char dhcp[] = {0x00};
 		if (dhcpMode == 1)	/* 二次认证第一次 */
 			dhcp[0] = 0x01;
-		if (bufType == 1) {
+
+		printf("bufType = %d\n",bufType);
+		if (bufType == 1) {			
 			memcpy(fillBuf+0x17, packet1, sizeof(packet1));
 			memcpy(fillBuf+0x3b, version, 2);
 		} else
 			memcpy(fillBuf+0x17, packet0, sizeof(packet0));
+		
 		setProperty(0x18, dhcp, 1);
 		setProperty(0x2D, localMAC, 6);
+
+		printf("service=%d\n",service);
+		
+		if(service == 1)
+		{
+			u_char service_1x[] = {0xd3,0xd0,0xcf,0xdf,0x31,0x78,0xc9,0xcf,0xcd,0xf8};
+			memcpy(fillBuf+0x17+322, service_1x, sizeof(service_1x));
+			//printf("service! %d, %d, %d, %d",fillBuf[320],fillBuf[321],fillBuf[322],fillBuf[323]);
+			//setProperty(0x2D, localMAC, 6);
+		}
 	}
 	else if (readPacket(0) == -1)	/* 读取数据失败就用默认的填充 */
 		fillStartPacket();

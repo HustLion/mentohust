@@ -1,16 +1,17 @@
-# Copyright (C) 2010 HustMoon Studio
-# This file is distributed under the same license as the mentohust package.
-# microcaicai <microcaicai@gmail.com>, 2010.
-# Lele Long <schemacs@gmail.com>, 2011.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR HustMoon Studio
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mentohust 0.3.1\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/mentohust/issues/list\n"
 "POT-Creation-Date: 2016-03-13 20:26-0700\n"
-"PO-Revision-Date: 2011-02-24 09:59+0800\n"
-"Last-Translator: Lele Long <schemacs@gmail.com>\n"
-"Language-Team: HustMoon Studio\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,125 +20,125 @@ msgstr ""
 #: src/dlfunc.c:45
 #, c-format
 msgid "!! 打开libpcap失败，请检查是否已安装该库文件。\n"
-msgstr "!! Failed to open libpcap, please check its existence.\n"
+msgstr ""
 
 #: src/dlfunc.c:59
 #, c-format
 msgid "!! 从libpcap获取函数失败: %s\n"
-msgstr "!! Failed To Get libpcap function : %s\n"
+msgstr ""
 
 #: src/dlfunc.c:109
 #, c-format
 msgid "!! 打开libnotify失败，请检查是否已安装该库文件。\n"
-msgstr "!! cannot load libnotify, please check its existence.\n"
+msgstr ""
 
 #: src/dlfunc.c:117
 #, c-format
 msgid "!! 从libnotify获取函数失败: %s\n"
-msgstr "!! Failed To Get libnotify function : %s\n"
+msgstr ""
 
 #: src/dlfunc.c:123
 #, c-format
 msgid "!! 初始化libnotify失败。\n"
-msgstr "!! Unable to initialize libnotify.\n"
+msgstr ""
 
 #: src/mentohust.c:65
 #, c-format
 msgid "!! 捕获数据包失败，请检查网络连接！\n"
-msgstr "!! Failed to capture packets, please check network connections!\n"
+msgstr ""
 
 #: src/mentohust.c:67 src/mentohust.c:103 src/myconfig.c:217
 #: src/myconfig.c:229 src/myconfig.c:267 src/myconfig.c:647
 msgid "MentoHUST - 错误提示"
-msgstr "MentoHUST - Error Tips"
+msgstr ""
 
 #: src/mentohust.c:68
 msgid "捕获数据包失败，请检查网络连接！"
-msgstr "Failed to capture packets, please check network connections!"
+msgstr ""
 
 #: src/mentohust.c:91
 #, c-format
 msgid ">> 认证已退出。\n"
-msgstr ">> Authentication exited.\n"
+msgstr ""
 
 #: src/mentohust.c:101
 #, c-format
 msgid "!! 发送数据包失败, 请检查网络连接！\n"
-msgstr "!! Failed to send packets, please check network connections!\n"
+msgstr ""
 
 #: src/mentohust.c:104
 msgid "发送数据包失败, 请检查网络连接！"
-msgstr "Failed to capture packets, please check network connections!"
+msgstr ""
 
 #: src/mentohust.c:129
 #, c-format
 msgid "** 认证MAC:\t%s\n"
-msgstr "** Server MAC:\t%s\n"
+msgstr ""
 
 #: src/mentohust.c:139
 #, c-format
 msgid ">> 认证成功!\n"
-msgstr ">> Authentication succeed!\n"
+msgstr ""
 
 #: src/mentohust.c:158 src/mystate.c:107
 #, c-format
 msgid ">> 认证掉线，开始重连!\n"
-msgstr ">> Authentication lost, begin reconnect!\n"
+msgstr ""
 
 #: src/mentohust.c:162
 #, c-format
 msgid ">> 认证失败!\n"
-msgstr ">> Authentication failed!\n"
+msgstr ""
 
 #: src/mentohust.c:166
 #, c-format
 msgid ">> 连续认证失败%u次，退出认证。\n"
-msgstr ">> Authentication failed %u times, exited.\n"
+msgstr ""
 
 #: src/mentohust.c:180
 #, c-format
 msgid "** 网关MAC:\t%s\n"
-msgstr "** Gateway MAC:\t%s\n"
+msgstr ""
 
 #: src/mentohust.c:185
 #, c-format
 msgid "** ARP欺骗:\t%s\n"
-msgstr "** ARP cheat:\t%s\n"
+msgstr ""
 
 #: src/mentohust.c:188
 #, c-format
 msgid "欺骗源: %s"
-msgstr "Cheat Source: %s"
+msgstr ""
 
 #: src/mentohust.c:189
 msgid "MentoHUST - ARP提示"
-msgstr "MentoHUST - ARP Tips"
+msgstr ""
 
 #: src/mentohust.c:209 src/mentohust.c:248
 #, c-format
 msgid "$$ 系统提示:\t%s\n"
-msgstr "$$ Server Messsage:\t%s\n"
+msgstr ""
 
 #: src/mentohust.c:211 src/mentohust.c:250
 msgid "MentoHUST - 系统提示"
-msgstr "MentoHUST - Server Message"
+msgstr ""
 
 #: src/mentohust.c:228
 #, c-format
 msgid "$$ 计费提示:\t%s\n"
-msgstr "$$ Accounting Message:\t%s\n"
+msgstr ""
 
 #: src/mentohust.c:230
 msgid "MentoHUST - 计费提示"
-msgstr "MentoHUST - Accounting Message"
+msgstr ""
 
 #: src/myconfig.c:166 src/myconfig.c:186
 msgid "获取终端属性失败"
-msgstr "tcgetattr failed"
+msgstr ""
 
 #: src/myconfig.c:174 src/myconfig.c:194
 msgid "设置终端属性失败"
-msgstr "tcsetattr failed"
+msgstr ""
 
 #: src/myconfig.c:208
 #, c-format
@@ -149,45 +150,38 @@ msgid ""
 "Bug report to %s\n"
 "\n"
 msgstr ""
-"\n"
-"Welcome to MentoHUST\tVersion: %s\n"
-"Copyright (C) 2009-2010 HustMoon Studio\n"
-"Bug report to %s\n"
-"\n"
 
 #: src/myconfig.c:218
 msgid "载入libpcap失败, 请检查该库文件！"
-msgstr "Failed to load libpcap, please check its existence."
+msgstr ""
 
 #: src/myconfig.c:230
 msgid "找不到网卡！"
-msgstr "can not find net card!"
+msgstr ""
 
 #: src/myconfig.c:239
 #, c-format
 msgid "?? 请输入用户名: "
-msgstr "?? enter your username:"
+msgstr ""
 
 #: src/myconfig.c:242
 #, c-format
 msgid "?? 请输入密码: "
-msgstr "?? enter your password:"
+msgstr ""
 
 #: src/myconfig.c:248
 #, c-format
 msgid "?? 请选择组播地址(0标准 1锐捷私有 2赛尔): "
-msgstr "?? enter multicast address(0--standard 1--ruijie 2--saier):"
+msgstr ""
 
 #: src/myconfig.c:251
 #, c-format
 msgid "?? 请选择DHCP方式(0不使用 1二次认证 2认证后 3认证前): "
 msgstr ""
-"?? enter DHCP type(0--do not use 1--secondary authenticate 2--post "
-"authenticate 3--pre authenticate):"
 
 #: src/myconfig.c:268
 msgid "获取MAC地址或打开网卡失败！"
-msgstr "failed to get mac or open net card!"
+msgstr ""
 
 #: src/myconfig.c:417
 #, c-format
@@ -223,345 +217,309 @@ msgid ""
 "注意：使用时请确保是以root权限运行！\n"
 "\n"
 msgstr ""
-"Usage:\t%s [-options][arguments]\n"
-"options:\t-h show this help\n"
-"\t-k -k(exit) other(restart)\n"
-"\t-w save parameters to configuration file\n"
-"\t-u username\n"
-"\t-p password\n"
-"\t-n net card name\n"
-"\t-i IP[default to localhost's IP]\n"
-"\t-m netmask[default to localhost's netmask]\n"
-"\t-g gateway[default to 0.0.0.0]\n"
-"\t-s DNS[default to 0.0.0.0]\n"
-"\t-o Ping host[default to 0.0.0.0,i.e. disable this function]\n"
-"\t-t authenticate timeout(s)[default to 8s)\n"
-"\t-e heartbeat timeout(s)[default to 30s)\n"
-"\t-r wait on failure timeout(s)[default to 15s)\n"
-"\t-l max failure times([0 means no limit,default to 8)\n"
-"\t-a mulcast address:0(standard) 1(ruijjie) 2(saier) [default to 0]\n"
-"\t-d DHCP type:0(not in used),1(secondary authenticate) 2(post authenticate) "
-"3(pre authenticate) [default to 0]\n"
-"\t-b run in demon mode:0(yes) 1(yes,turn off output) 2(yes,persevere output) "
-"2(yes,output to file) [default to 0}\n"
-"\t-y display notification:0(no) 1-20(yes)[default to 5]\n"
-"\t-v client version[default to 0.00,compatible with xrgsu]\n"
-"\t-f customized data file[not in used by default]\n"
-"\t-c DHCP script[use dhclient by default]\n"
-"\t-q display content from SuConfig.dat(such as -q/path/SuConfig.dat)\n"
-"examples:\t %s -uusername -ppassword -neth0 -i192.168.0.1 -m255.255.255.0 -"
-"g0.0.0.0 -s0.0.0.0 -o0.0.0.0 -t8 -e30 -r15 -a0 -d1 -b0 -v4.10 -fdefault.mpf -"
-"cdhclient\n"
-"Note:make sure run this with root's permission!\n"
-"\n"
 
 #: src/myconfig.c:457
 #, c-format
 msgid "!! 查找网卡失败: %s\n"
-msgstr "!! failed to check net card:%s\n"
+msgstr ""
 
 #: src/myconfig.c:465
 #, c-format
 msgid "** 网卡[%d]:\t%s\n"
-msgstr "** net card[%d]:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:473
 #, c-format
 msgid "!! 找不到网卡！\n"
-msgstr "!! failed to find net card!\n"
+msgstr ""
 
 #: src/myconfig.c:478
 #, c-format
 msgid "?? 请选择网卡[1-%d]: "
-msgstr "?? enter net card[1-%d]:"
+msgstr ""
 
 #: src/myconfig.c:485
 #, c-format
 msgid "** 您选择了第[%d]块网卡。\n"
-msgstr "** net card [%d] selected.\n"
+msgstr ""
 
 #: src/myconfig.c:494
 msgid "标准"
-msgstr "standard"
+msgstr ""
 
 #: src/myconfig.c:494
 msgid "锐捷"
-msgstr "ruijie"
+msgstr ""
 
 #: src/myconfig.c:494
 msgid "赛尔"
-msgstr "saier"
+msgstr ""
 
 #: src/myconfig.c:495
 msgid "不使用"
-msgstr "not in used"
+msgstr ""
 
 #: src/myconfig.c:495
 msgid "二次认证"
-msgstr "secondary authenticate"
+msgstr ""
 
 #: src/myconfig.c:495
 msgid "认证后"
-msgstr "post authenticate"
+msgstr ""
 
 #: src/myconfig.c:495
 msgid "认证前"
-msgstr "pre authenticate"
+msgstr ""
 
 #: src/myconfig.c:496
 #, c-format
 msgid "** 用户名:\t%s\n"
-msgstr "** username:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:498
 #, c-format
 msgid "** 网卡: \t%s\n"
-msgstr "** net card:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:500
 #, c-format
 msgid "** 网关地址:\t%s\n"
-msgstr "** gateway:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:502
 #, c-format
 msgid "** DNS地址:\t%s\n"
-msgstr "** DNS:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:504
 #, c-format
 msgid "** 智能重连:\t%s\n"
-msgstr "** smart reconnect:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:505
 #, c-format
 msgid "** 认证超时:\t%u秒\n"
-msgstr "** authenticate timeout:\t%u sec(s)\n"
+msgstr ""
 
 #: src/myconfig.c:506
 #, c-format
 msgid "** 心跳间隔:\t%u秒\n"
-msgstr "** heartbeat interval:\t%u sec(s)\n"
+msgstr ""
 
 #: src/myconfig.c:507
 #, c-format
 msgid "** 失败等待:\t%u秒\n"
-msgstr "** wait on failure:\t%u sec(s)\n"
+msgstr ""
 
 #: src/myconfig.c:509
 #, c-format
 msgid "** 允许失败:\t%u次\n"
-msgstr "** failure allowed:\t%u time(s)\n"
+msgstr ""
 
 #: src/myconfig.c:510
 #, c-format
 msgid "** 组播地址:\t%s\n"
-msgstr "** multicast address:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:511
 #, c-format
 msgid "** DHCP方式:\t%s\n"
-msgstr "** DHCP type:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:514
 #, c-format
 msgid "** 通知超时:\t%d秒\n"
-msgstr "** notify timeout:\t%d sec(s)\n"
+msgstr ""
 
 #: src/myconfig.c:517
 #, c-format
 msgid "** 数据文件:\t%s\n"
-msgstr "** data file:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:519
 #, c-format
 msgid "** DHCP脚本:\t%s\n"
-msgstr "** DHCP script:\t%s\n"
+msgstr ""
 
 #: src/myconfig.c:528
 #, c-format
 msgid "!! 打开网卡%s失败: %s\n"
-msgstr "!! failed to open net card %s:%s\n"
+msgstr ""
 
 #: src/myconfig.c:542
 #, c-format
 msgid "!! 设置pcap过滤器失败: %s\n"
-msgstr "!! failed to set pcap's filter:%s\n"
+msgstr ""
 
 #: src/myconfig.c:590
 #, c-format
 msgid "!! 保存认证参数到%s失败！\n"
-msgstr "!! failed to save authenticate parameters to %s!\n"
+msgstr ""
 
 #: src/myconfig.c:592
 #, c-format
 msgid "** 认证参数已成功保存到%s.\n"
-msgstr "** authenticate parameters saved to %s.\n"
+msgstr ""
 
 #: src/myconfig.c:601
 msgid "!! 打开锁文件失败"
-msgstr "!! failed to open lock file"
+msgstr ""
 
 #: src/myconfig.c:609
 msgid "!! 获取文件锁失败"
-msgstr "!! failed to obtain file's lock"
+msgstr ""
 
 #: src/myconfig.c:614
 #, c-format
 msgid ">> 已发送退出信号给MentoHUST进程(PID=%d).\n"
-msgstr ">> exit signal has been sent to MentoHUST process(PID=%d).\n"
+msgstr ""
 
 #: src/myconfig.c:616
 msgid "!! 结束进程失败"
-msgstr "!! failed to terminate process"
+msgstr ""
 
 #: src/myconfig.c:619
 #, c-format
 msgid "!! 没有MentoHUST正在运行！\n"
-msgstr "!! No MentoHUST is running!\n"
+msgstr ""
 
 #: src/myconfig.c:624
 #, c-format
 msgid "!! MentoHUST已经运行(PID=%d)!\n"
-msgstr "!! MentoHUST is already running(PID=%d)!\n"
+msgstr ""
 
 #: src/myconfig.c:628
 #, c-format
 msgid ">> 进入后台运行模式，使用参数-k可退出认证。\n"
-msgstr ">> run in daemon mode,use -k to quit authentication.\n"
+msgstr ""
 
 #: src/myconfig.c:630
 msgid "!! 后台运行失败"
-msgstr "!! failed to run in daemon mode"
+msgstr ""
 
 #: src/myconfig.c:640
 msgid "!! 加锁失败"
-msgstr "!! failed to lock file"
+msgstr ""
 
 #: src/myconfig.c:648
 msgid "操作锁文件失败，请检查是否为root权限！"
 msgstr ""
-"failed to operate on lock file,please check if it is run with root's "
-"permission'!"
 
 #: src/myfunc.c:140 src/myfunc.c:381
 #, c-format
 msgid "!! 所选文件%s无效，改用内置数据认证。\n"
 msgstr ""
-"!! file %s selected is invalid,switch to internal data authentication.\n"
 
 #: src/myfunc.c:147
 #, c-format
 msgid "!! 指定的SuConfig.dat文件无效。\n"
-msgstr "!! SunConfig.dat file selected is invalid.\n"
+msgstr ""
 
 #: src/myfunc.c:191
 #, c-format
 msgid "!! 创建套接字失败!\n"
-msgstr "!! failed to create socket!\n"
+msgstr ""
 
 #: src/myfunc.c:226 src/myfunc.c:237
 #, c-format
 msgid "!! 在网卡%s上获取IP失败!\n"
-msgstr "!! failed to get IP from net card %s!\n"
+msgstr ""
 
 #: src/myfunc.c:245
 #, c-format
 msgid "!! 在网卡%s上获取子网掩码失败!\n"
-msgstr "!! failed to get netmask from net card %s!\n"
+msgstr ""
 
 #: src/myfunc.c:251
 #, c-format
 msgid "** 本机MAC:\t%s\n"
-msgstr "** localhost mac:\t%s\n"
+msgstr ""
 
 #: src/myfunc.c:252
 #, c-format
 msgid "** 使用IP:\t%s\n"
-msgstr "** using IP:\t%s\n"
+msgstr ""
 
 #: src/myfunc.c:253
 #, c-format
 msgid "** 子网掩码:\t%s\n"
-msgstr "** netmask:\t%s\n"
+msgstr ""
 
 #: src/myfunc.c:258
 #, c-format
 msgid "!! 在网卡%s上获取MAC失败!\n"
-msgstr "!! failed to get MAC from net card %s!\n"
+msgstr ""
 
 #: src/myfunc.c:467
 #, c-format
 msgid "** 客户端版本:\t%d.%d\n"
-msgstr "** client version:\t%d.%d\n"
+msgstr ""
 
 #: src/myfunc.c:468
 #, c-format
 msgid "** MD5种子:\t%s\n"
-msgstr "** MD5 seed:\t%s\n"
+msgstr ""
 
 #: src/myfunc.c:471
 #, c-format
 msgid "!! 缺少8021x.exe信息，客户端校验无法继续！\n"
 msgstr ""
-"!! 8021x.exe's information is not provided,client can not continue "
-"authentication.\n"
 
 #: src/myfunc.c:475
 #, c-format
 msgid "** V2校验值:\t%s\n"
-msgstr "** V2 checksum:\t%s\n"
+msgstr ""
 
 #: src/myfunc.c:565
 msgid "!! Ping主机出错，关闭该功能"
-msgstr "!! failed to ping host,disable this function"
+msgstr ""
 
 #: src/mystate.c:78
 #, c-format
 msgid ">> 找不到服务器，重启认证!\n"
-msgstr ">>failed to find server,authentication restarted!\n"
+msgstr ""
 
 #: src/mystate.c:81
 #, c-format
 msgid ">> 发送用户名超时，重启认证!\n"
-msgstr ">> username sent timeout,authentication restarted!\n"
+msgstr ""
 
 #: src/mystate.c:84
 #, c-format
 msgid ">> 发送密码超时，重启认证!\n"
-msgstr ">> password sent timeout,authentication restarted!\n"
+msgstr ""
 
 #: src/mystate.c:87
 #, c-format
 msgid ">> 等候响应包超时，自行响应!\n"
-msgstr ">>waiting response packet timeout,response automatically!\n"
+msgstr ""
 
 #: src/mystate.c:136
 #, c-format
 msgid ">> 正在获取IP...\n"
-msgstr ">>getting IP...\n"
+msgstr ""
 
 #: src/mystate.c:138
 #, c-format
 msgid ">> 操作结束。\n"
-msgstr ">>operation end.\n"
+msgstr ""
 
 #: src/mystate.c:161 src/mystate.c:173
 #, c-format
 msgid ">> 寻找服务器...\n"
-msgstr ">> looking for server...\n"
+msgstr ""
 
 #: src/mystate.c:189 src/mystate.c:205
 #, c-format
 msgid ">> 发送用户名...\n"
-msgstr ">>sending username...\n"
+msgstr ""
 
 #: src/mystate.c:226 src/mystate.c:241
 #, c-format
 msgid ">> 发送密码...\n"
-msgstr ">>sending password...\n"
+msgstr ""
 
 #: src/mystate.c:274
 #, c-format
 msgid ">> 发送心跳包以保持在线...\n"
-msgstr ">>sending heartbeat to keep alive...\n"
+msgstr ""
