@@ -58,6 +58,11 @@ sudo mentohust -uUsername -pPassword
 sudo ln -s libpcap.so.0.x.y /usr/lib/libpcap.so.0.x
 否则请安装libpcap。
 
+
+####用户使用了不允许的接入方式!(有线网络请选择“有线1x上网”服务)
+增加了参数 -S ，华南农业大学使用办公账号出现 ‘用户使用了不允许的接入方式!(有线网络请选择“有线1x上网”服务) ’可以使用 -S 1,或者配置文件增加‘  Service=1 ’
+
+
 其他事项
 ========
 ####开发者资源
